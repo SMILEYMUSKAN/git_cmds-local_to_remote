@@ -10,10 +10,10 @@ How to push local repo to remote ?
     `git config user.email <"Your email">`
 > Conforming to your terminal who is the user current working 
 4. `git commit -m <"Your message">`- Commiting your Repo with massage
-5. `git remote <Your repo URL>` 
+5. `git remote add <YOUR REMOTE NAME> <Your repo URL>` 
 6. `git remote -v`- To check your local repo's connection with remote had successful (or) not.
 7. `git push <YOUR NAME> <YOUR BRANCH NAME>`- To push your local repo to remote.
-8. `git pull <YOUR NAME> <YOUR BRANCH NAME>`- To pull your remote repo to local repo
+8. `git pull <YOUR REMOTE NAME> <YOUR BRANCH NAME>`- To pull your remote repo to local repo
 
 How to add additional files to your remote repo from local which have already commit ?
 
@@ -24,7 +24,21 @@ How to add additional files to your remote repo from local which have already co
 3. `git push <YOUR NAME> <YOUR BRANCH NAME>`
 
 **4. Now you have to `pull request` in git hub and `Merge` the  new file which you had added to your repo**
+
 **5. The files will added to repo**
+
+6. `git log` - To check how many cmds have done on a repo.
+
+7. `git status` - To check the repo had added to git (or) not
+
+8. `git branch` - To check list of branches you had
+
+9. `git branch <YOUR NEW BRANCH NAME>` - To add new branch. 
+
+10. `git checkout`(change) - To change one branch to another
+
+11. `git checkout -b <YOUR NEW BRANCH NAME>`- To create new branch at the same time to swith to that new branch.
+
 
 ![](https://www.earthdatascience.org/images/earth-analytics/git-version-control/github-create-new-pull-request.png)
 
