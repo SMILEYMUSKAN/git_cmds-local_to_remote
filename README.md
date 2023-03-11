@@ -12,7 +12,10 @@ How to push local repo to remote ?
 4. `git commit -m <"Your message">`- Commiting your Repo with massage
 5. `git remote add <YOUR REMOTE NAME> <Your repo URL>` 
 6. `git remote -v`- To check your local repo's connection with remote had successful (or) not.
-7. `git push <YOUR NAME> <YOUR BRANCH NAME>`- To push your local repo to remote.
+7. `git push -u <YOUR NAME> <YOUR BRANCH NAME>`- To push your local repo to remote for the **first time** while pushing a new branch , we include `-u`.
+
+9. `git push` - To push your local repo to remote of **same working branch**
+
 8. `git pull <YOUR REMOTE NAME> <YOUR BRANCH NAME>`- To pull your remote repo to local repo
 
 How to add additional files to your remote repo from local which have already commit ?
@@ -21,7 +24,7 @@ How to add additional files to your remote repo from local which have already co
 
 1. `git add .`
 2. `git commit -m <"Message">`
-3. `git push <YOUR NAME> <YOUR BRANCH NAME>`
+3. `git push -u <YOUR NAME> <YOUR BRANCH NAME>`
 
 **4. Now you have to `pull request` in git hub and `Merge` the  new file which you had added to your repo**
 
