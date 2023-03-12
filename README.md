@@ -24,7 +24,7 @@ How to add additional files to your remote repo from local which have already co
 
 1. `git add .`
 2. `git commit -m <"Message">`
-3. `git push -u <YOUR NAME> <YOUR BRANCH NAME>`
+3. `git push -u <YOUR REMOTE NAME> <YOUR BRANCH NAME>`
 
 **4. Now you have to `pull request` in git hub and `Merge` the  new file which you had added to your repo**
 
@@ -42,11 +42,24 @@ How to add additional files to your remote repo from local which have already co
 
 11. `git checkout -b <YOUR NEW BRANCH NAME>`- To create new branch at the same time to swith to that new branch.
 
+12. `git fetch` - To find a particular word which u want to check.
 
+## *How to Pull Request and Merge the repo in the git bash terminal with cmds ?*
+
+1. `git pull <YOUR REMOTE NAME > <YOUR BRANCH NAME>` - To pull from a remote.
+
+2. `git merge <YOUR BRANCH NAME>` - To merge a branch into current branch.
+
+## *How to delete branches with cmd ?*
+
+1. `git branch -d <YOUR BRANCH NAME>` - To  delete a local branch.
+2. `git push <YOUR REMOTE NAME> --delete <YOUR BRANCH NAME>` - To delete a remote branch.
+
+***
 ![](https://www.earthdatascience.org/images/earth-analytics/git-version-control/github-create-new-pull-request.png)
-
+***
 ### *Pull Request*
-
+***
 ![](https://embed-ssl.wistia.com/deliveries/02698a12184c77a2137fd9265001c2daa86d943f.jpg?image_crop_resized=640x360)
 
 ### *Merge Option*
